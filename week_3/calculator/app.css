@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  color: whitesmoke;
+  font-size: 2rem;
+}
+body {
+  /*width: 100%;*/
+  /*height: 100%;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contain {
+  max-width: 37%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #61b34f;
+}
+
+.format {
+  border: 1px solid white;
+  text-align: center;
+  padding: 5% 0;
+  flex: 1 25%;
+}
+
+.output {
+  flex: 3 75%;
+}
+
+.light-green {
+  background-color: lightgreen;
+}
+.light-green:hover {
+  background-color: #62b34f;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Profile Setup</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <div class="outer">
+    <section>
+      <p class="title">Sign Up</p>
+
+      <form class="form1">
+
+        <div class="radio">
+          <div>
+            <input type="radio" id="admin" name="admin" value="">
+            <label for="admin">Admin</label>
+          </div>
+
+          <div>
+            <input type="radio" id="Personal" name="Personal" value="">
+            <label for="Personal">Personal</label>
+          </div>
+
+          <div>
+            <input type="radio" id="Guest" name="Guest" value="">
+            <label for="Guest">Guest</label>
+          </div>
+        </div>
+
+        <div class="info">
+          <div>
+            <label for="name">Name</label>
+            <br>
+            <input type="text" id="name" name="name" value="">
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" id="email" name="email" value="">
+          </div>
+        </div>
+
+        <div class="password">
+          <div>
+            <label for="pass1">Password</label>
+            <br>
+            <input type="password" id="pass1" name="pass1" value="">
+          </div>
+
+          <div>
+            <label for="pass2">Verify Password</label>
+            <br>
+            <input type="password" id="pass2" name="pass2" value="">
+          </div>
+        </div>
+
+        <div class="buttons">
+          <div class="pic">
+            <label for="pic">Profile Picture</label>
+            <input type="file" id="pic" name="" value="">
+          </div>
+          <div class="btn">
+            <a href="#" onclick="document.getElementById('form1').submit()">Sign Up</a>
+            <!--<input type="submit" name="submit" placeholder="Sign Up">-->
+          </div>
+        </div>
+
+      </form>
+    </section>
+  </div>
+</body>
+
+</html>

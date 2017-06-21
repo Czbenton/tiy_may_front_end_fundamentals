@@ -1,0 +1,123 @@
+@font-face{
+    font-family: OleoScript;
+    src: url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2');
+}
+@font-face{
+    font-family: Poiret One;
+    src: url(http://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8QzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+}
+
+hr{
+        height: 2px;
+    background-color: white;
+    max-width: 50%;
+}
+.header-wrapper{
+    background-image: url("../img/header-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    margin: 0 0 0 0;
+}
+
+.main-heading, .callout-msg, .contact-wrapper{
+    font-family: Poiret One;
+    font-style: normal;
+}
+
+.subheader-msg{
+    font-family: OleoScript;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.main-heading{
+    font-size: 4.5rem;
+    color: white;
+    text-align: center;
+    /*padding: 12rem 0 2rem 0;*/
+    text-shadow: 2px 2px 2px black;
+}
+.header-wrapper{
+    position: relative;
+    padding-top: 12rem;
+}
+.logo{
+    background-image:url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: 12rem 12rem;
+    min-height: 12rem;
+    -webkit-filter: invert(100%); filter: invert(100%);
+    width: 18%;
+    position: absolute;
+    right: 7rem;
+    top: 16rem;
+}
+ul{
+    padding: 0 0rem 0 20rem;
+}
+
+ul li{
+    display: inline-block;
+    height: 15rem;
+    width: 15rem;
+}
+
+#left-img{
+     background-image:url("../img/left-img.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     box-shadow: 2px 1px 2px black;
+     margin: 0 1rem 0 0;
+}
+#middle-img{
+     background-image:url("../img/middle-img.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     box-shadow: 2px 1px 2px black;
+    margin: 0 1rem 0 0;
+}
+#right-img{
+    background-image:url("../img/right-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 2px 1px 2px black;
+    margin: 0 1rem 0 0;
+}
+
+.callout-wrapper{
+    padding: 1rem 20rem 1rem 20rem;
+    background-color: #55a061;
+}
+
+.callout-msg{
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.callout-wrapper, .contact-wrapper, .contact-email, .callout-msg{
+    text-align: center;
+}
+
+.contact-msg{
+    font-size: 1.25rem;
+    padding: 0 27rem 0 27rem;
+}
+
+.contact-email{
+    font-size: 2rem;
+}
+
+.footer-wrapper{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem 0 1rem 0;
+}

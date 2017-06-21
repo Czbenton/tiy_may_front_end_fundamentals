@@ -1,0 +1,71 @@
+/*font-family: 'Dancing Script';*/
+/*font-family: 'Josefin Sans';*/
+/*font-family: 'Noto Serif';*/
+
+.nav-row{
+    background-color: #3e3e3f;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0 1rem 0;
+    margin: 0;
+}
+
+.nav-item a{
+    font-size: 1.25rem;
+    color: white;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none
+}
+
+#facebook{
+    font-size: 2rem;
+}
+
+.header-content{
+    background-image: url("../img/header-img.jpg");
+    padding: 0 0 20% 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-heading{
+    font-family: 'Josefin Sans';
+    font-size: 10rem;
+    margin-bottom: 0;
+
+}
+
+.sub-heading{
+    color: white;
+    font-family: 'Dancing Script';
+    font-size: 5rem;
+    margin: -4rem;
+}
+
+main{
+    width: 75%;
+    margin: -5rem 10rem 0 10rem;
+    background-color: #fff3db;
+    box-shadow: 2px 1px 7px black;
+    display: flex;
+    
+}
+
+.blog-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-pic{
+    content: url("../img/author.jpeg");
+    /*background-image: url("../img/author.jpeg");*/
+    /*padding: 5rem;*/
+}
